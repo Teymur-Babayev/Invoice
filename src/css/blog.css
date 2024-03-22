@@ -1,0 +1,27 @@
+#blog h1 {
+    @apply text-4xl text-white font-bold my-3
+}
+
+#blog h2 {
+    @apply text-2xl text-white font-semibold mb-8
+}
+
+#blog p {
+    @apply text-justify text-white text-xl my-5
+}
+
+#blog p > img {
+    @apply w-full md:h-[50vh] object-contain
+}
+
+#blog ul > li {
+    @apply text-xl text-white  font-semibold my-2 flex items-center
+}
+#blog ul > li > ul {
+    @apply  block
+}
+
+#blog ul > li::before{
+    content: "";
+    @apply w-2 h-2 bg-white rounded-full mr-2
+}

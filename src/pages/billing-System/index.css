@@ -1,0 +1,250 @@
+
+* {
+    box-sizing: border-box;
+  }
+
+.header{
+    position: relative;
+}
+
+.avatarLocation{
+    position: absolute;
+    top: 20px;
+    cursor: pointer;
+}
+
+
+#header_title_style{
+    column-gap: 0.75rem;
+}
+
+
+.create_date{
+    margin-top: 49px;
+}
+.userAvatar{
+    border-radius: 40px;
+    position: absolute;
+    width: 70px !important;
+    height: 70px !important;
+    background-color: white !important;
+    left: 39px !important;
+    top: 66px !important;
+    border: 1px solid #6d6d97;
+}
+
+.g_textField{
+    margin-top: 20px !important;
+}
+
+.g_textField1{
+    margin-top: 22px !important;
+}
+
+.userAvatar:hover{
+    opacity: 0.8;
+    color: #3d62b9;
+    border: 1px solid;
+}
+
+.header-title{
+    font-family: auto;
+    font-size: 41px;
+    padding-top: 58px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #e14949;
+}
+
+#state_date{
+    font-size: 10px;
+    height: 19px;
+    background: white;
+    padding-bottom: 0px;
+    width: 100%;
+}
+
+.textFields{
+    margin-top: 5px !important;
+    width: 50%;
+    margin-top: 3px !important;
+    color: rebeccapurple !important;
+}
+.create_date{
+    height: 50px;
+    overflow: hidden;
+}
+
+.total_price{
+    text-align: center;
+    border-radius: 10px;
+    background-color: #e4f2ff !important;
+    outline: none;
+    color: black;
+}
+
+.input_val{
+    border-radius: 10px;
+    background-color: #e0edf9 !important;
+}
+
+.add-field{
+    display: flex;
+    justify-content: space-around;
+    background: #f7f7f7;
+}
+
+.textField_street{
+    margin-top: 9px !important;
+}
+.col-lg-2{
+    text-align: center;
+}
+
+.background{
+    min-height: 953px;
+    margin-top: 0px;
+    overflow-y: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    background: #add0f1;
+    /* background-image: url(/public/background-picture/pexels-asad-photo-maldives-457882.jpg); */
+}
+
+.container-field{
+    padding: 15px;;
+}
+
+.add-row{
+    border-top: 2px solid #4f4fdb;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background: white;
+    outline: none;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 30px; 
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top: 3px solid blue;
+    padding-bottom: 45px;;
+}
+
+table{
+    margin-bottom: 0px !important;
+    background: #f7f7f7;
+}
+
+thead{
+    border-top: 3px solid #2c2cb5;
+}
+
+tr{
+    text-align: center;
+}
+
+.header-line{
+    width: 100%;
+    background-color: rgb(124, 190, 98);
+}
+
+.textField{
+    margin-top: 20px !important;
+}
+
+.descriptions{
+    background-color:  #e0edf9 !important;
+}
+
+.conceptos{
+    margin-bottom: 15px;
+    font-family: auto;
+    font-size: 34px;
+    padding-top: 30px;
+    color: #e14949;
+    /* text-shadow: 1px 1px 2px #ff0283, 0 0 25px blue, 0 0 5px #32ff24; */
+}
+
+.description{
+    height: 77px !important;
+    background: whitesmoke;
+    margin-top: 3px;
+    padding-top: 21px;
+    padding-left: 26px;
+    width: 30%;
+    min-height: 77px !important;
+}
+
+.currency{
+    background: white;
+    padding-left: 14px;
+    display: flex;
+    padding-bottom: 20px;
+    justify-content: space-between;
+    padding-top: -28px;
+    padding-right: 0px
+}
+
+.content-description{
+    background: white;
+    padding-left: 13px;
+    padding-right: 13px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.more-detail{
+    margin-top: 30px !important;
+}
+
+.contents{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.total{
+    color: red;
+}
+
+.descriptions{
+    height: 80px !important;
+}
+
+.avatarPrice{
+    margin-right: 40px !important;
+    
+}
+
+label{
+    font-size: 17px !important;
+    color: black !important;
+}
+.priceState{
+    width: 50% !important;
+    color: black !important;
+}
+
+.view_state{
+    margin-right: 0px;
+    background: #f7f7f7;
+    margin-left: 0px;
+}
+
+.properties{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.send-btn{
+    margin-top: 50px !important;
+    float: right;
+    margin-bottom: 20px !important;
+    margin-right: 20px !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.back-btn{
+    margin-top: 50px !important;
+    float: right;
+    margin-bottom: 20px !important;
+    margin-right: 20px !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

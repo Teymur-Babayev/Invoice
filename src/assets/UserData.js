@@ -1,0 +1,26 @@
+export const UserDataPrueba = [
+    {
+        id:1,
+        mes:"Enero",
+        activos:4500,
+        pasivos:3000
+    },
+    {
+        id:2,
+        mes:"Febrero",
+        activos:3500,
+        pasivos:3000
+    },
+    {
+        id:3,
+        mes:"Marzo",
+        activos:5500,
+        pasivos:3000
+    },
+    {
+        id:4,
+        mes:"Abril",
+        activos:2500,
+        pasivos:3000
+    },
+]

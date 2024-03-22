@@ -1,0 +1,8 @@
+
+
+.hoverValue:hover{
+    /* background-color: black;
+    color: white; */
+    opacity: 1;
+    background-color: rgb(15 37 56 / var(--tw-bg-opacity)) !important;
+}
